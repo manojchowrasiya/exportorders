@@ -28,6 +28,14 @@
   "require": {
     "w3development/exportorders": "0.0.1"
   },
+  "extra": {
+            "map": [
+                [
+                    "*",
+                    "W3development/Exportorders"
+                ]
+            ]
+        }
   "autoload": {
     "files": [ "registration.php" ]
   }
